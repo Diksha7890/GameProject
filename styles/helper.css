@@ -1,0 +1,23 @@
+.red {
+    background-color: red;
+    border-top-left-radius: 50%;
+}
+
+.yellow {
+    background-color: yellow;
+    border-top-right-radius: 50%;
+}
+
+.blue {
+    background-color: blue;
+    border-bottom-left-radius: 50%;
+}
+
+.green {
+    background-color: green;
+    border-bottom-right-radius: 50%;
+}
+
+.selected {
+    opacity: 1 !important;
+}

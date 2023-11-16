@@ -1,0 +1,84 @@
+@import url('./helper.css');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    padding: 1em 4em;
+    min-height: 100vh;
+    background-color: black;
+}
+
+
+h5 {
+    color: #fff;
+    margin-top: 1em;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    color: #fff;
+}
+
+.game-btns {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.game-btn {
+    border: 1px solid #fff;
+    outline: none;
+    padding: 10px;
+    color: #fff;
+    background-color: #000;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.game-btn:hover {
+    background-color: bisque;
+    color: #000;
+}
+
+.restart {
+    margin-left: 1em;
+}
+
+.game-grid{
+    min-height: 200px;
+    min-width:200px;
+    background-color: black
+}
+.game-grid .game-block {
+    border: 1px solid #fff;
+    font-size: 5em;
+    min-width: 100px;
+    min-height: 100px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#levelno,
+#result,
+.score{
+
+    color: white;
+    margin-top: 1em;
+    text-align: center;
+}
+
